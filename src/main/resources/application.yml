@@ -17,5 +17,9 @@ spring:
       hibernate:
         format_sql: true
 
+feign:
+  product:
+    url: http://localhost:8081/api/v1/categories
+
 server:
   port: 8082

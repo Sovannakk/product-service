@@ -6,7 +6,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
-@OpenAPIDefinition(info = @Info(title = "Category Service",
+@OpenAPIDefinition(info = @Info(title = "Product Service",
         version = "v1",
         description = "This is description"))
 @SpringBootApplication
